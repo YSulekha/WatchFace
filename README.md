@@ -1,6 +1,8 @@
 # Go Ubiquitous
 
-The Go Ubiquitous is a wearable watch face for Sunshine to run on an Android Wear device. Sunshine Synchronizes weather information from OpenWeatherMap on Android Phones and Tablets.
+The Go Ubiquitous is a wearable watch face for Sunshine to run on an Android Wear device. Sunshine Synchronizes weather information from OpenWeatherMap on Android Phones and Tablets.Synchronizes weather information from OpenWeatherMap on Android Phones and Tablets.
+
+Note: Add your openWeatherAPI key to gradle.properties and add google-services.json file for the code to work,
  
 
 ##Screenshot  
@@ -10,4 +12,4 @@ The Go Ubiquitous is a wearable watch face for Sunshine to run on an Android Wea
 
 ===================================
 
-Synchronizes weather information from OpenWeatherMap on Android Phones and Tablets. Used in the Udacity Advanced Android course.
+

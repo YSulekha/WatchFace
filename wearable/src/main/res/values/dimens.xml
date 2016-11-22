@@ -6,7 +6,7 @@
     <dimen name="digital_text_size_round">45dp</dimen>
     <dimen name="digital_text_size_temp">20dp</dimen>
     <dimen name="digital_text_size_date">15dp</dimen>
-   <dimen name="digital_x_offset">35dp</dimen>
+   <dimen name="digital_x_offset">25dp</dimen>
     <dimen name="digital_x_offset_t">5dp</dimen>
     <dimen name="digital_x_offset_round">50dp</dimen>
     <dimen name="digital_x_offset_temp">110dp</dimen>

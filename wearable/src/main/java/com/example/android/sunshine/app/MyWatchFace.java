@@ -35,7 +35,6 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.wearable.watchface.CanvasWatchFaceService;
 import android.support.wearable.watchface.WatchFaceStyle;
-import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.WindowInsets;
 
@@ -51,7 +50,6 @@ import com.google.android.gms.wearable.Wearable;
 
 import java.util.Calendar;
 import java.util.TimeZone;
-import java.util.concurrent.TimeUnit;
 
 /**
  * Digital watch face with seconds. In ambient mode, the seconds aren't displayed. On devices with
@@ -61,16 +59,6 @@ public class MyWatchFace extends CanvasWatchFaceService {
     private static final Typeface NORMAL_TYPEFACE =
             Typeface.create(Typeface.SANS_SERIF, Typeface.NORMAL);
 
-    /**
-     * Update rate in milliseconds for interactive mode. We update once a second since seconds are
-     * displayed in interactive mode.
-     */
-    private static final long INTERACTIVE_UPDATE_RATE_MS = TimeUnit.SECONDS.toMillis(1);
-
-    /**
-     * Handler message id for updating the time periodically in interactive mode.
-     */
-    private static final int MSG_UPDATE_TIME = 0;
 
     @Override
     public Engine onCreateEngine() {
@@ -85,7 +73,6 @@ public class MyWatchFace extends CanvasWatchFaceService {
         boolean mRegisteredTimeZoneReceiver = false;
         Paint mBackgroundPaint;
         Paint mBackgroundAmbientPaint;
-        Paint mBackRectPaint;
         Paint mTextPaint;
         Paint mHighTextPaint;
         Paint mDatePaint;
@@ -105,9 +92,6 @@ public class MyWatchFace extends CanvasWatchFaceService {
         };
         float mXOffset;
         float mYOffset;
-        float mTextXOffset;
-        float mTextYOffset;
-        float mYTempOffset;
         float mXLowTempOffset;
         float mYHighTempOffset;
         float mYImageOffset;
@@ -127,7 +111,6 @@ public class MyWatchFace extends CanvasWatchFaceService {
         @Override
         public void onCreate(SurfaceHolder holder) {
             super.onCreate(holder);
-            Log.v("OnDataChanged", "OnCreate");
             setWatchFaceStyle(new WatchFaceStyle.Builder(MyWatchFace.this)
                     .setCardPeekMode(WatchFaceStyle.PEEK_MODE_VARIABLE)
                     .setBackgroundVisibility(WatchFaceStyle.BACKGROUND_VISIBILITY_INTERRUPTIVE)
@@ -137,9 +120,7 @@ public class MyWatchFace extends CanvasWatchFaceService {
 
             Resources resources = MyWatchFace.this.getResources();
 
-
             mXLowTempOffset = resources.getDimension(R.dimen.digital_x_offset_temp);
-
 
             mBackgroundPaint = new Paint();
             mBackgroundPaint.setColor(resources.getColor(R.color.primary));
@@ -237,9 +218,6 @@ public class MyWatchFace extends CanvasWatchFaceService {
                 releaseGoogleApiClient();
             }
 
-            // Whether the timer should be running depends on whether we're visible (as well as
-            // whether we're in ambient mode), so we may need to start or stop the timer.
-            //     updateTimer();
         }
 
         private void registerReceiver() {
@@ -317,7 +295,6 @@ public class MyWatchFace extends CanvasWatchFaceService {
 
         @Override
         public void onDraw(Canvas canvas, Rect bounds) {
-            Log.v("OnDataChanged", "OnDraw");
 
             int width = bounds.width();
             int height = bounds.height();
@@ -330,7 +307,6 @@ public class MyWatchFace extends CanvasWatchFaceService {
 
             mBackgroundBitmap = Bitmap.createScaledBitmap(mBackgroundBitmap,
                     40, 40, true);
-
 
             if (mAmbient && (mLowBitAmbient || mBurnInProtection)) {
                 canvas.drawColor(Color.BLACK);
@@ -359,7 +335,7 @@ public class MyWatchFace extends CanvasWatchFaceService {
             int dateX = Math.abs(bounds.centerX() - textBounds.centerX());
             canvas.drawText(datetext, dateX, mYDateOffset, mDatePaint);
             int lineX = Math.abs(bounds.centerX() - 10);
-            canvas.drawLine(lineX, mYLineOffset, lineX+30, mYLineOffset, mTextPaint);
+            canvas.drawLine(lineX, mYLineOffset, lineX + 30, mYLineOffset, mTextPaint);
 
             mHighTextPaint.getTextBounds(highTemp, 0, highTemp.length(), textBounds);
             int highX = Math.abs(bounds.centerX() - textBounds.centerX());
@@ -387,7 +363,6 @@ public class MyWatchFace extends CanvasWatchFaceService {
 
         @Override
         public void onDataChanged(DataEventBuffer dataEventBuffer) {
-            Log.v("OnDataChanged", "ddfs");
             String HIGH_TEMP = "com.nanodegree.alse.sunshine.hightemp";
             String LOW_TEMP = "com.nanodegree.alse.sunshine.lowtemp";
             String ICON = "com.nanodegree.alse.sunshine.icodid";
@@ -399,21 +374,15 @@ public class MyWatchFace extends CanvasWatchFaceService {
                         DataMap dataMap = DataMapItem.fromDataItem(item).getDataMap();
                         highTemp = dataMap.getString(HIGH_TEMP);
                         lowTemp = dataMap.getString(LOW_TEMP);
-
                         int icon = dataMap.getInt(ICON);
-                        Log.v("HighTemp", highTemp);
-                        Log.v("icon", String.valueOf(icon));
                         int iconId = Utility.getArtResourceForWeatherCondition(icon);
                         mBackgroundBitmap = BitmapFactory.decodeResource(getResources(), iconId);
-                        Log.v("bitmap", mBackgroundBitmap.toString());
                         this.invalidate();
-
                     }
                 } else if (event.getType() == DataEvent.TYPE_DELETED) {
                     // DataItem deleted
                 }
             }
-
         }
     }
 }

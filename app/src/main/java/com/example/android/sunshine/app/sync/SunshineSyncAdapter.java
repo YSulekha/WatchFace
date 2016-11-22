@@ -221,7 +221,7 @@ public class SunshineSyncAdapter extends AbstractThreadedSyncAdapter {
     }
 
     private void sendDataToWearable() {
-        v("InsideWearable","sdfdsf");
+
         String HIGH_TEMP = "com.nanodegree.alse.sunshine.hightemp";
         String LOW_TEMP = "com.nanodegree.alse.sunshine.lowtemp";
         String ICON = "com.nanodegree.alse.sunshine.icodid";
@@ -234,15 +234,11 @@ public class SunshineSyncAdapter extends AbstractThreadedSyncAdapter {
         Cursor cursor = context.getContentResolver().query(weatherUri, NOTIFY_WEATHER_PROJECTION, null, null, null);
 
         if (cursor.moveToFirst()) {
-            v("InsideWearable","sdfdsf2");
+
             int weatherId = cursor.getInt(INDEX_WEATHER_ID);
             double high = cursor.getDouble(INDEX_MAX_TEMP);
             double low = cursor.getDouble(INDEX_MIN_TEMP);
-            String desc = cursor.getString(INDEX_SHORT_DESC);
-
-            int iconId = Utility.getIconResourceForWeatherCondition(weatherId);
             String highString =  Utility.formatTemperature(context, high);
-            Log.v("InsideWeara",highString);
             String lowString = Utility.formatTemperature(context, low);
 
             PutDataMapRequest putDataMapReq = PutDataMapRequest.create("/weatherdata");

@@ -8,8 +8,8 @@ Note: Add your openWeatherAPI key to gradle.properties and add google-services.j
 ##Screenshot  
    
  <img src='https://github.com/YSulekha/WatchFace/blob/master/SunshineFace_Round.png'/>
-  <img src='https://github.com/YSulekha/WatchFace/blob/master/sunshine_square.png'/>
+ <img src='https://github.com/YSulekha/WatchFace/blob/master/sunshine_square.png'/>
 
-===================================
+
 
 

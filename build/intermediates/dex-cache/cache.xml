@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c4394d46152165cd3256fb711ac94f66a28fbae1">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/wearable/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-9.6.1_3407d4bec715854ed191a0b3fce02faf5e0e2c11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/pre-dexed/debug/internal_impl-23.3.0_0f5557350f26906e2e837ff2c27582384a75a58a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.3.0_234af50fdbac4b13ab9ecf25c99f37bca5bae6c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/wearable/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.6.1_fcbf20684e4231113cced5ecc11d1e1fa2c14fd9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d4c936aa8c7d2522c82e3f1829c791d9e367f009">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.2.0_7a7978ec21520074b501a3503de35edecd50f3aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="379d1834afa3c08f43be23a23b103053537b65b5">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-iid-9.0.0_8e8c3f9ea57bc704ac1e059c6e2af5a2e469abde.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="184428c29b2a4b220cd44284d515db5d8cb5fc76">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-9.0.0_f4b5242fd9345c14ae4c8bdb29920773252e0fcd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.5.2/ecf534dba3a8446ce84cbb797d314763be212a68/glide-3.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ecf534dba3a8446ce84cbb797d314763be212a68">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/pre-dexed/debug/glide-3.5.2_fc93d3cca343cd846a9da7ee611db70ac7f493bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/wearable/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.6.1_14dcf4f2dc66be0c313368c219d4839746d653eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.0.0_a41c023541e014fe59f09205a25df60ac7736580.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.3.0_e1021acad7d1cb179b32fb2bfeddcf1d7f90abc5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/wearable/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/wearable/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.0.1_eb90306ee7b79c13b4601b87ac4b478135747efb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.0.0_119ce3b67ad98e196faea516ceee0aa04df3d368.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4caf75b2cfb7ec6e80a57d0ee64fc102ad3578b8">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-9.0.0_37c014d70543f6feb26d842ff67dd08eb3a870e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.3.0_6a87ab50a713375e8a24374b16855ec0ec799a55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/.gradle/caches/modules-2/files-2.1/com.google.android.apps.muzei/muzei-api/2.0/ea86be2a201e6ad86dacffe774dbc6d89fcb0c92/muzei-api-2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ea86be2a201e6ad86dacffe774dbc6d89fcb0c92">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/pre-dexed/debug/muzei-api-2.0_cf4d3093455740c80f6f07873f802437733acca2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1aa5b025efe97f5006f5be16d6ca67c6c3c0c0d8">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.2.0_dd2a19f3ba5eb01698ea7aa0097ed732b3c05779.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/wearable/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/wearable/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_16e66581613ea89d9046c9f5c323878e25077d02.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.0.0_f4c7c558748252907f3833a40c550c473dcb0f10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/wearable/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_8fc37eb3fc0efe75cdd005e3416d7bebaf958e6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/wearable/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/wearable/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_5fcd984327ef544245c0e5e512e357e374cd6c57.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3202db513a724413357b6189c481d88004a97b79">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/wearable/build/intermediates/pre-dexed/debug/com.google.android.support-wearable-2.0.0-alpha3_9c93574ab954960254d567ff44e2b9f6bda5bbf2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/wearable/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.6.1_cc57e150443bccdc76cc20adabd0c6fecb3a1af7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.0.0_e9fe7860a55e13c0560904d225beaa7e3077c106.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0-alpha3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3202db513a724413357b6189c481d88004a97b79">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/pre-dexed/debug/com.google.android.support-wearable-2.0.0-alpha3_b863b3ed19671b48f1be2cb73b9112250c445c14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.3.0_747929c8e9050cc0e55998a398ac672ec23e1504.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.0.0_656993d4037c554257f2ef8a275cb696ef2017ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.0.0_86c8fc8a7a7c2ee8a154f02d002cbcec6cd0bef7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c1c08695849034038e3debef50bc70bb32f60840">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/pre-dexed/debug/com.android.support-gridlayout-v7-23.2.0_afa063a71bf65bbe1590c4be3da3aa17ce62dcc8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/pre-dexed/debug/support-annotations-23.3.0_f36a52899acc80256560652ac72f4321dcb32072.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="bc599eb9531da9d18bc58ec4eb0b1a1d895f6839">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.2.0_1964920b29b5cc2a8d4fe49f0bad59cda43599ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
+        <dex dex="/Users/aharyadi/Documents/AndroidWS/Nanodegree/GoUbliqutuous/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.0.0_aacb8090a968cb9d7228887afc5e3d0836224ac9.jar" />
+    </item>
+
+</items>
